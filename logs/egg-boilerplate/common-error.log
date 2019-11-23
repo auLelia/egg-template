@@ -1,0 +1,1752 @@
+2019-11-11 11:50:22,245 ERROR 52038 nodejs.ClusterClientNoResponseError: client no response in 301838ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 52038
+hostname: dajiamandeMacBook-Air.local
+
+2019-11-11 11:55:44,086 ERROR 52038 nodejs.ClusterClientNoResponseError: client no response in 301828ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 52038
+hostname: dajiamandeMacBook-Air.local
+
+2019-11-11 12:01:26,016 ERROR 52038 nodejs.ClusterClientNoResponseError: client no response in 301901ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 52038
+hostname: dajiamandeMacBook-Air.local
+
+2019-11-11 12:12:29,944 ERROR 52038 nodejs.ClusterClientNoResponseError: client no response in 302003ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 52038
+hostname: dajiamandeMacBook-Air.local
+
+2019-11-11 12:18:16,944 ERROR 52038 nodejs.ClusterClientNoResponseError: client no response in 306972ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 52038
+hostname: dajiamandeMacBook-Air.local
+
+2019-11-11 12:42:53,246 ERROR 52038 nodejs.ClusterClientNoResponseError: client no response in 1436279ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 52038
+hostname: dajiamandeMacBook-Air.local
+
+2019-11-23 15:59:11,748 ERROR 19699 [-/127.0.0.1/-/11ms GET /user/10001] nodejs.TypeError: Cannot set property 'body' of undefined
+    at Helper.exports.success (/Users/dajiaman/开发/后端/egg-boilerplate/app/extend/helper.js:4:12)
+    at UserController.show (/Users/dajiaman/开发/后端/egg-boilerplate/app/controller/user.js:14:16)
+    at Object.callFn (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:45:18)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:44:32)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at notFoundHandler (/Users/dajiaman/开发/后端/egg-boilerplate/app/middleware/notfound_handler.js:5:11)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at responseTime (/Users/dajiaman/开发/后端/egg-boilerplate/app/middleware/responsetime.js:19:12)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+
+pid: 19699
+hostname: dajiamandeMacBook-Air.local
+
+2019-11-23 15:59:11,799 ERROR 19699 nodejs.TypeError: this.ctx.service.user.find is not a function
+    at UserService.getUserInfoByUid (/Users/dajiaman/开发/后端/egg-boilerplate/app/service/user.js:6:46)
+    at UserController.show (/Users/dajiaman/开发/后端/egg-boilerplate/app/controller/user.js:12:30)
+    at Object.callFn (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:45:18)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:44:32)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at notFoundHandler (/Users/dajiaman/开发/后端/egg-boilerplate/app/middleware/notfound_handler.js:5:11)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at responseTime (/Users/dajiaman/开发/后端/egg-boilerplate/app/middleware/responsetime.js:19:12)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+
+pid: 19699
+hostname: dajiamandeMacBook-Air.local
+
+2019-11-23 15:59:13,752 ERROR 19699 [-/127.0.0.1/-/1ms GET /user/10001] nodejs.TypeError: Cannot set property 'body' of undefined
+    at Helper.exports.success (/Users/dajiaman/开发/后端/egg-boilerplate/app/extend/helper.js:4:12)
+    at UserController.show (/Users/dajiaman/开发/后端/egg-boilerplate/app/controller/user.js:14:16)
+    at Object.callFn (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:45:18)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:44:32)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at notFoundHandler (/Users/dajiaman/开发/后端/egg-boilerplate/app/middleware/notfound_handler.js:5:11)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at responseTime (/Users/dajiaman/开发/后端/egg-boilerplate/app/middleware/responsetime.js:19:12)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+
+pid: 19699
+hostname: dajiamandeMacBook-Air.local
+
+2019-11-23 15:59:13,762 ERROR 19699 nodejs.TypeError: this.ctx.service.user.find is not a function
+    at UserService.getUserInfoByUid (/Users/dajiaman/开发/后端/egg-boilerplate/app/service/user.js:6:46)
+    at UserController.show (/Users/dajiaman/开发/后端/egg-boilerplate/app/controller/user.js:12:30)
+    at Object.callFn (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:45:18)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:44:32)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at notFoundHandler (/Users/dajiaman/开发/后端/egg-boilerplate/app/middleware/notfound_handler.js:5:11)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at responseTime (/Users/dajiaman/开发/后端/egg-boilerplate/app/middleware/responsetime.js:19:12)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+
+pid: 19699
+hostname: dajiamandeMacBook-Air.local
+
+2019-11-23 16:00:13,347 ERROR 19700 nodejs.TypeError: this.ctx.service.user.find is not a function
+    at UserService.getUserInfoByUid (/Users/dajiaman/开发/后端/egg-boilerplate/app/service/user.js:6:46)
+    at UserController.show (/Users/dajiaman/开发/后端/egg-boilerplate/app/controller/user.js:12:30)
+    at Object.callFn (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:45:18)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:44:32)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at notFoundHandler (/Users/dajiaman/开发/后端/egg-boilerplate/app/middleware/notfound_handler.js:5:11)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at responseTime (/Users/dajiaman/开发/后端/egg-boilerplate/app/middleware/responsetime.js:19:12)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+
+pid: 19700
+hostname: dajiamandeMacBook-Air.local
+
+2019-11-23 16:00:24,881 ERROR 19700 nodejs.TypeError: this.ctx.service.user.find is not a function
+    at UserService.getUserInfoByUid (/Users/dajiaman/开发/后端/egg-boilerplate/app/service/user.js:6:46)
+    at UserController.show (/Users/dajiaman/开发/后端/egg-boilerplate/app/controller/user.js:12:30)
+    at Object.callFn (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:45:18)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:44:32)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at notFoundHandler (/Users/dajiaman/开发/后端/egg-boilerplate/app/middleware/notfound_handler.js:5:11)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at responseTime (/Users/dajiaman/开发/后端/egg-boilerplate/app/middleware/responsetime.js:19:12)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+
+pid: 19700
+hostname: dajiamandeMacBook-Air.local
+
+2019-11-23 16:01:35,115 ERROR 19712 nodejs.TypeError: this.ctx.model.User.findById is not a function
+    at UserService.find (/Users/dajiaman/开发/后端/egg-boilerplate/app/service/user.js:15:32)
+    at UserService.getUserInfoByUid (/Users/dajiaman/开发/后端/egg-boilerplate/app/service/user.js:6:46)
+    at UserController.show (/Users/dajiaman/开发/后端/egg-boilerplate/app/controller/user.js:12:30)
+    at Object.callFn (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:45:18)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:44:32)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at notFoundHandler (/Users/dajiaman/开发/后端/egg-boilerplate/app/middleware/notfound_handler.js:5:11)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at responseTime (/Users/dajiaman/开发/后端/egg-boilerplate/app/middleware/responsetime.js:19:12)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 19712
+hostname: dajiamandeMacBook-Air.local
+
+2019-11-23 16:03:01,142 ERROR 19718 nodejs.SequelizeDatabaseError: Unknown column 'username' in 'field list'
+    at Query.formatError (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/mysql/query.js:244:16)
+    at Query.handler [as onResult] (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/mysql/query.js:51:23)
+    at Query.execute (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/mysql2/lib/commands/command.js:30:14)
+    at Connection.handlePacket (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/mysql2/lib/connection.js:408:32)
+    at PacketParser.onPacket (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/mysql2/lib/connection.js:70:12)
+    at PacketParser.executeStart (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/mysql2/lib/connection.js:77:25)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:166:17)
+From previous event:
+    at Query.run (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/mysql/query.js:39:12)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:645:29
+From previous event:
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:645:12
+From previous event:
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:641:10
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/retry-as-promised/index.js:60:10)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:631:30
+From previous event:
+    at Sequelize.query (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:580:23)
+    at QueryInterface.select (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/query-interface.js:1121:27)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/model.js:1757:34
+    at processImmediate (internal/timers.js:439:21)
+From previous event:
+    at Function.findAll (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/model.js:1755:8)
+    at Function.findOne (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/model.js:1924:17)
+    at Function.findByPk (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/model.js:1888:17)
+    at UserService.find (/Users/dajiaman/开发/后端/egg-boilerplate/app/service/user.js:15:32)
+    at UserService.getUserInfoByUid (/Users/dajiaman/开发/后端/egg-boilerplate/app/service/user.js:6:46)
+    at UserController.show (/Users/dajiaman/开发/后端/egg-boilerplate/app/controller/user.js:12:30)
+    at Object.callFn (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:45:18)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:44:32)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at notFoundHandler (/Users/dajiaman/开发/后端/egg-boilerplate/app/middleware/notfound_handler.js:5:11)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at responseTime (/Users/dajiaman/开发/后端/egg-boilerplate/app/middleware/responsetime.js:19:12)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'username' in 'field list'","sql":"SELECT `id`, `username` AS `nickname`, `mobile`, `status`, `create_time`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `user` AS `user` WHERE `user`.`id` = '10001';"}
+original: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'username' in 'field list'","sql":"SELECT `id`, `username` AS `nickname`, `mobile`, `status`, `create_time`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `user` AS `user` WHERE `user`.`id` = '10001';"}
+sql: "SELECT `id`, `username` AS `nickname`, `mobile`, `status`, `create_time`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `user` AS `user` WHERE `user`.`id` = '10001';"
+parameters: undefined
+pid: 19718
+hostname: dajiamandeMacBook-Air.local
+
+2019-11-23 16:03:03,391 ERROR 19718 nodejs.SequelizeDatabaseError: Unknown column 'username' in 'field list'
+    at Query.formatError (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/mysql/query.js:244:16)
+    at Query.handler [as onResult] (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/mysql/query.js:51:23)
+    at Query.execute (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/mysql2/lib/commands/command.js:30:14)
+    at Connection.handlePacket (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/mysql2/lib/connection.js:408:32)
+    at PacketParser.onPacket (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/mysql2/lib/connection.js:70:12)
+    at PacketParser.executeStart (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/mysql2/lib/connection.js:77:25)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:166:17)
+From previous event:
+    at Query.run (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/mysql/query.js:39:12)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:645:29
+From previous event:
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:645:12
+From previous event:
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:641:10
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/retry-as-promised/index.js:60:10)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:631:30
+From previous event:
+    at Sequelize.query (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:580:23)
+    at QueryInterface.select (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/query-interface.js:1121:27)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/model.js:1757:34
+    at processImmediate (internal/timers.js:439:21)
+From previous event:
+    at Function.findAll (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/model.js:1755:8)
+    at Function.findOne (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/model.js:1924:17)
+    at Function.findByPk (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/model.js:1888:17)
+    at UserService.find (/Users/dajiaman/开发/后端/egg-boilerplate/app/service/user.js:15:32)
+    at UserService.getUserInfoByUid (/Users/dajiaman/开发/后端/egg-boilerplate/app/service/user.js:6:46)
+    at UserController.show (/Users/dajiaman/开发/后端/egg-boilerplate/app/controller/user.js:12:30)
+    at Object.callFn (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:45:18)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:44:32)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at notFoundHandler (/Users/dajiaman/开发/后端/egg-boilerplate/app/middleware/notfound_handler.js:5:11)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at responseTime (/Users/dajiaman/开发/后端/egg-boilerplate/app/middleware/responsetime.js:19:12)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'username' in 'field list'","sql":"SELECT `id`, `username` AS `nickname`, `mobile`, `status`, `create_time`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `user` AS `user` WHERE `user`.`id` = '10001';"}
+original: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'username' in 'field list'","sql":"SELECT `id`, `username` AS `nickname`, `mobile`, `status`, `create_time`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `user` AS `user` WHERE `user`.`id` = '10001';"}
+sql: "SELECT `id`, `username` AS `nickname`, `mobile`, `status`, `create_time`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `user` AS `user` WHERE `user`.`id` = '10001';"
+parameters: undefined
+pid: 19718
+hostname: dajiamandeMacBook-Air.local
+
+2019-11-23 16:04:37,086 ERROR 19722 nodejs.SequelizeDatabaseError: Unknown column 'created_at' in 'field list'
+    at Query.formatError (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/mysql/query.js:244:16)
+    at Query.handler [as onResult] (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/mysql/query.js:51:23)
+    at Query.execute (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/mysql2/lib/commands/command.js:30:14)
+    at Connection.handlePacket (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/mysql2/lib/connection.js:408:32)
+    at PacketParser.onPacket (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/mysql2/lib/connection.js:70:12)
+    at PacketParser.executeStart (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/mysql2/lib/connection.js:77:25)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:166:17)
+From previous event:
+    at Query.run (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/mysql/query.js:39:12)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:645:29
+From previous event:
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:645:12
+From previous event:
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:641:10
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/retry-as-promised/index.js:60:10)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:631:30
+From previous event:
+    at Sequelize.query (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:580:23)
+    at QueryInterface.select (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/query-interface.js:1121:27)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/model.js:1757:34
+    at processImmediate (internal/timers.js:439:21)
+From previous event:
+    at Function.findAll (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/model.js:1755:8)
+    at Function.findOne (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/model.js:1924:17)
+    at Function.findByPk (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/model.js:1888:17)
+    at UserService.find (/Users/dajiaman/开发/后端/egg-boilerplate/app/service/user.js:15:32)
+    at UserService.getUserInfoByUid (/Users/dajiaman/开发/后端/egg-boilerplate/app/service/user.js:6:46)
+    at UserController.show (/Users/dajiaman/开发/后端/egg-boilerplate/app/controller/user.js:12:30)
+    at Object.callFn (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:45:18)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:44:32)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at notFoundHandler (/Users/dajiaman/开发/后端/egg-boilerplate/app/middleware/notfound_handler.js:5:11)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at responseTime (/Users/dajiaman/开发/后端/egg-boilerplate/app/middleware/responsetime.js:19:12)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'created_at' in 'field list'","sql":"SELECT `id`, `nickname`, `avatar`, `mobile`, `status`, `create_time`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `user` AS `user` WHERE `user`.`id` = '10001';"}
+original: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'created_at' in 'field list'","sql":"SELECT `id`, `nickname`, `avatar`, `mobile`, `status`, `create_time`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `user` AS `user` WHERE `user`.`id` = '10001';"}
+sql: "SELECT `id`, `nickname`, `avatar`, `mobile`, `status`, `create_time`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `user` AS `user` WHERE `user`.`id` = '10001';"
+parameters: undefined
+pid: 19722
+hostname: dajiamandeMacBook-Air.local
+
+2019-11-23 16:08:43,504 ERROR 19759 nodejs.SequelizeDatabaseError: Unknown column 'created_time' in 'field list'
+    at Query.formatError (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/mysql/query.js:244:16)
+    at Query.handler [as onResult] (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/mysql/query.js:51:23)
+    at Query.execute (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/mysql2/lib/commands/command.js:30:14)
+    at Connection.handlePacket (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/mysql2/lib/connection.js:408:32)
+    at PacketParser.onPacket (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/mysql2/lib/connection.js:70:12)
+    at PacketParser.executeStart (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/mysql2/lib/connection.js:77:25)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:166:17)
+From previous event:
+    at Query.run (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/mysql/query.js:39:12)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:645:29
+From previous event:
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:645:12
+From previous event:
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:641:10
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/retry-as-promised/index.js:60:10)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:631:30
+From previous event:
+    at Sequelize.query (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:580:23)
+    at QueryInterface.select (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/query-interface.js:1121:27)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/model.js:1757:34
+    at processImmediate (internal/timers.js:439:21)
+From previous event:
+    at Function.findAll (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/model.js:1755:8)
+    at Function.findOne (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/model.js:1924:17)
+    at Function.findByPk (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/model.js:1888:17)
+    at UserService.find (/Users/dajiaman/开发/后端/egg-boilerplate/app/service/user.js:15:32)
+    at UserService.getUserInfoByUid (/Users/dajiaman/开发/后端/egg-boilerplate/app/service/user.js:6:46)
+    at UserController.show (/Users/dajiaman/开发/后端/egg-boilerplate/app/controller/user.js:12:30)
+    at Object.callFn (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:45:18)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:44:32)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at notFoundHandler (/Users/dajiaman/开发/后端/egg-boilerplate/app/middleware/notfound_handler.js:5:11)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at responseTime (/Users/dajiaman/开发/后端/egg-boilerplate/app/middleware/responsetime.js:19:12)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'created_time' in 'field list'","sql":"SELECT `id`, `nickname`, `avatar`, `mobile`, `status`, `created_time`, `updated_time`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `user` AS `user` WHERE `user`.`id` = '10001';"}
+original: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'created_time' in 'field list'","sql":"SELECT `id`, `nickname`, `avatar`, `mobile`, `status`, `created_time`, `updated_time`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `user` AS `user` WHERE `user`.`id` = '10001';"}
+sql: "SELECT `id`, `nickname`, `avatar`, `mobile`, `status`, `created_time`, `updated_time`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `user` AS `user` WHERE `user`.`id` = '10001';"
+parameters: undefined
+pid: 19759
+hostname: dajiamandeMacBook-Air.local
+
+2019-11-23 16:09:50,486 ERROR 19764 nodejs.SequelizeDatabaseError: Unknown column 'created_at' in 'field list'
+    at Query.formatError (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/mysql/query.js:244:16)
+    at Query.handler [as onResult] (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/mysql/query.js:51:23)
+    at Query.execute (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/mysql2/lib/commands/command.js:30:14)
+    at Connection.handlePacket (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/mysql2/lib/connection.js:408:32)
+    at PacketParser.onPacket (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/mysql2/lib/connection.js:70:12)
+    at PacketParser.executeStart (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/mysql2/lib/connection.js:77:25)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:166:17)
+From previous event:
+    at Query.run (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/mysql/query.js:39:12)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:645:29
+From previous event:
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:645:12
+From previous event:
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:641:10
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/retry-as-promised/index.js:60:10)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:631:30
+From previous event:
+    at Sequelize.query (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:580:23)
+    at QueryInterface.select (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/query-interface.js:1121:27)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/model.js:1757:34
+    at processImmediate (internal/timers.js:439:21)
+From previous event:
+    at Function.findAll (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/model.js:1755:8)
+    at Function.findOne (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/model.js:1924:17)
+    at Function.findByPk (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/model.js:1888:17)
+    at UserService.find (/Users/dajiaman/开发/后端/egg-boilerplate/app/service/user.js:15:32)
+    at UserService.getUserInfoByUid (/Users/dajiaman/开发/后端/egg-boilerplate/app/service/user.js:6:46)
+    at UserController.show (/Users/dajiaman/开发/后端/egg-boilerplate/app/controller/user.js:12:30)
+    at Object.callFn (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:45:18)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:44:32)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at notFoundHandler (/Users/dajiaman/开发/后端/egg-boilerplate/app/middleware/notfound_handler.js:5:11)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at responseTime (/Users/dajiaman/开发/后端/egg-boilerplate/app/middleware/responsetime.js:19:12)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'created_at' in 'field list'","sql":"SELECT `id`, `nickname`, `avatar`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `user` AS `user` WHERE `user`.`id` = '10001';"}
+original: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'created_at' in 'field list'","sql":"SELECT `id`, `nickname`, `avatar`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `user` AS `user` WHERE `user`.`id` = '10001';"}
+sql: "SELECT `id`, `nickname`, `avatar`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `user` AS `user` WHERE `user`.`id` = '10001';"
+parameters: undefined
+pid: 19764
+hostname: dajiamandeMacBook-Air.local
+
+2019-11-23 16:10:06,838 ERROR 19766 nodejs.SequelizeDatabaseError: Unknown column 'create_at' in 'field list'
+    at Query.formatError (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/mysql/query.js:244:16)
+    at Query.handler [as onResult] (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/mysql/query.js:51:23)
+    at Query.execute (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/mysql2/lib/commands/command.js:30:14)
+    at Connection.handlePacket (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/mysql2/lib/connection.js:408:32)
+    at PacketParser.onPacket (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/mysql2/lib/connection.js:70:12)
+    at PacketParser.executeStart (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/mysql2/lib/connection.js:77:25)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:166:17)
+From previous event:
+    at Query.run (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/mysql/query.js:39:12)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:645:29
+From previous event:
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:645:12
+From previous event:
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:641:10
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/retry-as-promised/index.js:60:10)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:631:30
+From previous event:
+    at Sequelize.query (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:580:23)
+    at QueryInterface.select (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/query-interface.js:1121:27)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/model.js:1757:34
+    at processImmediate (internal/timers.js:439:21)
+From previous event:
+    at Function.findAll (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/model.js:1755:8)
+    at Function.findOne (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/model.js:1924:17)
+    at Function.findByPk (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/model.js:1888:17)
+    at UserService.find (/Users/dajiaman/开发/后端/egg-boilerplate/app/service/user.js:15:32)
+    at UserService.getUserInfoByUid (/Users/dajiaman/开发/后端/egg-boilerplate/app/service/user.js:6:46)
+    at UserController.show (/Users/dajiaman/开发/后端/egg-boilerplate/app/controller/user.js:12:30)
+    at Object.callFn (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:45:18)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:44:32)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at notFoundHandler (/Users/dajiaman/开发/后端/egg-boilerplate/app/middleware/notfound_handler.js:5:11)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at responseTime (/Users/dajiaman/开发/后端/egg-boilerplate/app/middleware/responsetime.js:19:12)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'create_at' in 'field list'","sql":"SELECT `id`, `nickname`, `avatar`, `mobile`, `status`, `create_at` AS `createAt`, `created_time`, `updated_time`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `user` AS `user` WHERE `user`.`id` = '10001';"}
+original: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'create_at' in 'field list'","sql":"SELECT `id`, `nickname`, `avatar`, `mobile`, `status`, `create_at` AS `createAt`, `created_time`, `updated_time`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `user` AS `user` WHERE `user`.`id` = '10001';"}
+sql: "SELECT `id`, `nickname`, `avatar`, `mobile`, `status`, `create_at` AS `createAt`, `created_time`, `updated_time`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `user` AS `user` WHERE `user`.`id` = '10001';"
+parameters: undefined
+pid: 19766
+hostname: dajiamandeMacBook-Air.local
+
+2019-11-23 16:10:25,225 ERROR 19769 nodejs.SequelizeDatabaseError: Unknown column 'created_at' in 'field list'
+    at Query.formatError (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/mysql/query.js:244:16)
+    at Query.handler [as onResult] (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/mysql/query.js:51:23)
+    at Query.execute (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/mysql2/lib/commands/command.js:30:14)
+    at Connection.handlePacket (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/mysql2/lib/connection.js:408:32)
+    at PacketParser.onPacket (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/mysql2/lib/connection.js:70:12)
+    at PacketParser.executeStart (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/mysql2/lib/connection.js:77:25)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:166:17)
+From previous event:
+    at Query.run (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/mysql/query.js:39:12)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:645:29
+From previous event:
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:645:12
+From previous event:
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:641:10
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/retry-as-promised/index.js:60:10)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:631:30
+From previous event:
+    at Sequelize.query (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:580:23)
+    at QueryInterface.select (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/query-interface.js:1121:27)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/model.js:1757:34
+    at processImmediate (internal/timers.js:439:21)
+From previous event:
+    at Function.findAll (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/model.js:1755:8)
+    at Function.findOne (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/model.js:1924:17)
+    at Function.findByPk (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/model.js:1888:17)
+    at UserService.find (/Users/dajiaman/开发/后端/egg-boilerplate/app/service/user.js:15:32)
+    at UserService.getUserInfoByUid (/Users/dajiaman/开发/后端/egg-boilerplate/app/service/user.js:6:46)
+    at UserController.show (/Users/dajiaman/开发/后端/egg-boilerplate/app/controller/user.js:12:30)
+    at Object.callFn (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:45:18)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:44:32)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at notFoundHandler (/Users/dajiaman/开发/后端/egg-boilerplate/app/middleware/notfound_handler.js:5:11)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at responseTime (/Users/dajiaman/开发/后端/egg-boilerplate/app/middleware/responsetime.js:19:12)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'created_at' in 'field list'","sql":"SELECT `id`, `nickname`, `avatar`, `mobile`, `status`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt`, `created_time`, `updated_time` FROM `user` AS `user` WHERE `user`.`id` = '10001';"}
+original: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'created_at' in 'field list'","sql":"SELECT `id`, `nickname`, `avatar`, `mobile`, `status`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt`, `created_time`, `updated_time` FROM `user` AS `user` WHERE `user`.`id` = '10001';"}
+sql: "SELECT `id`, `nickname`, `avatar`, `mobile`, `status`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt`, `created_time`, `updated_time` FROM `user` AS `user` WHERE `user`.`id` = '10001';"
+parameters: undefined
+pid: 19769
+hostname: dajiamandeMacBook-Air.local
+
+2019-11-23 16:10:32,841 ERROR 19769 nodejs.SequelizeDatabaseError: Unknown column 'created_at' in 'field list'
+    at Query.formatError (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/mysql/query.js:244:16)
+    at Query.handler [as onResult] (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/mysql/query.js:51:23)
+    at Query.execute (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/mysql2/lib/commands/command.js:30:14)
+    at Connection.handlePacket (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/mysql2/lib/connection.js:408:32)
+    at PacketParser.onPacket (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/mysql2/lib/connection.js:70:12)
+    at PacketParser.executeStart (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/mysql2/lib/connection.js:77:25)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:166:17)
+From previous event:
+    at Query.run (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/mysql/query.js:39:12)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:645:29
+From previous event:
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:645:12
+From previous event:
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:641:10
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/retry-as-promised/index.js:60:10)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:631:30
+From previous event:
+    at Sequelize.query (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:580:23)
+    at QueryInterface.select (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/query-interface.js:1121:27)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/model.js:1757:34
+    at processImmediate (internal/timers.js:439:21)
+From previous event:
+    at Function.findAll (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/model.js:1755:8)
+    at Function.findOne (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/model.js:1924:17)
+    at Function.findByPk (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/model.js:1888:17)
+    at UserService.find (/Users/dajiaman/开发/后端/egg-boilerplate/app/service/user.js:15:32)
+    at UserService.getUserInfoByUid (/Users/dajiaman/开发/后端/egg-boilerplate/app/service/user.js:6:46)
+    at UserController.show (/Users/dajiaman/开发/后端/egg-boilerplate/app/controller/user.js:12:30)
+    at Object.callFn (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:45:18)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:44:32)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at notFoundHandler (/Users/dajiaman/开发/后端/egg-boilerplate/app/middleware/notfound_handler.js:5:11)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at responseTime (/Users/dajiaman/开发/后端/egg-boilerplate/app/middleware/responsetime.js:19:12)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'created_at' in 'field list'","sql":"SELECT `id`, `nickname`, `avatar`, `mobile`, `status`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt`, `created_time`, `updated_time` FROM `user` AS `user` WHERE `user`.`id` = '10001';"}
+original: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'created_at' in 'field list'","sql":"SELECT `id`, `nickname`, `avatar`, `mobile`, `status`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt`, `created_time`, `updated_time` FROM `user` AS `user` WHERE `user`.`id` = '10001';"}
+sql: "SELECT `id`, `nickname`, `avatar`, `mobile`, `status`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt`, `created_time`, `updated_time` FROM `user` AS `user` WHERE `user`.`id` = '10001';"
+parameters: undefined
+pid: 19769
+hostname: dajiamandeMacBook-Air.local
+
+2019-11-23 16:15:00,705 ERROR 19786 nodejs.SequelizeDatabaseError: Unknown column 'created_time' in 'field list'
+    at Query.formatError (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/mysql/query.js:244:16)
+    at Query.handler [as onResult] (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/mysql/query.js:51:23)
+    at Query.execute (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/mysql2/lib/commands/command.js:30:14)
+    at Connection.handlePacket (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/mysql2/lib/connection.js:408:32)
+    at PacketParser.onPacket (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/mysql2/lib/connection.js:70:12)
+    at PacketParser.executeStart (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/mysql2/lib/connection.js:77:25)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:166:17)
+From previous event:
+    at Query.run (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/mysql/query.js:39:12)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:645:29
+From previous event:
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:645:12
+From previous event:
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:641:10
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/retry-as-promised/index.js:60:10)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:631:30
+From previous event:
+    at Sequelize.query (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:580:23)
+    at QueryInterface.select (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/query-interface.js:1121:27)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/model.js:1757:34
+    at processImmediate (internal/timers.js:439:21)
+From previous event:
+    at Function.findAll (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/model.js:1755:8)
+    at Function.findOne (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/model.js:1924:17)
+    at Function.findByPk (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/model.js:1888:17)
+    at UserService.find (/Users/dajiaman/开发/后端/egg-boilerplate/app/service/user.js:15:32)
+    at UserService.getUserInfoByUid (/Users/dajiaman/开发/后端/egg-boilerplate/app/service/user.js:6:46)
+    at UserController.show (/Users/dajiaman/开发/后端/egg-boilerplate/app/controller/user.js:12:30)
+    at Object.callFn (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:45:18)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:44:32)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at notFoundHandler (/Users/dajiaman/开发/后端/egg-boilerplate/app/middleware/notfound_handler.js:5:11)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at responseTime (/Users/dajiaman/开发/后端/egg-boilerplate/app/middleware/responsetime.js:19:12)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'created_time' in 'field list'","sql":"SELECT `id`, `nickname`, `avatar`, `mobile`, `status`, `created_time`, `updated_time`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `user` AS `user` WHERE `user`.`id` = '10001';"}
+original: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'created_time' in 'field list'","sql":"SELECT `id`, `nickname`, `avatar`, `mobile`, `status`, `created_time`, `updated_time`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `user` AS `user` WHERE `user`.`id` = '10001';"}
+sql: "SELECT `id`, `nickname`, `avatar`, `mobile`, `status`, `created_time`, `updated_time`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `user` AS `user` WHERE `user`.`id` = '10001';"
+parameters: undefined
+pid: 19786
+hostname: dajiamandeMacBook-Air.local
+
+2019-11-23 16:15:42,061 ERROR 19791 nodejs.SequelizeDatabaseError: Unknown column 'created_at' in 'field list'
+    at Query.formatError (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/mysql/query.js:244:16)
+    at Query.handler [as onResult] (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/mysql/query.js:51:23)
+    at Query.execute (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/mysql2/lib/commands/command.js:30:14)
+    at Connection.handlePacket (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/mysql2/lib/connection.js:408:32)
+    at PacketParser.onPacket (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/mysql2/lib/connection.js:70:12)
+    at PacketParser.executeStart (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/mysql2/lib/connection.js:77:25)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:166:17)
+From previous event:
+    at Query.run (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/mysql/query.js:39:12)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:645:29
+From previous event:
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:645:12
+From previous event:
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:641:10
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/retry-as-promised/index.js:60:10)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:631:30
+From previous event:
+    at Sequelize.query (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:580:23)
+    at QueryInterface.select (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/query-interface.js:1121:27)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/model.js:1757:34
+    at processImmediate (internal/timers.js:439:21)
+From previous event:
+    at Function.findAll (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/model.js:1755:8)
+    at Function.findOne (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/model.js:1924:17)
+    at Function.findByPk (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/model.js:1888:17)
+    at UserService.find (/Users/dajiaman/开发/后端/egg-boilerplate/app/service/user.js:15:32)
+    at UserService.getUserInfoByUid (/Users/dajiaman/开发/后端/egg-boilerplate/app/service/user.js:6:46)
+    at UserController.show (/Users/dajiaman/开发/后端/egg-boilerplate/app/controller/user.js:12:30)
+    at Object.callFn (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:45:18)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:44:32)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at notFoundHandler (/Users/dajiaman/开发/后端/egg-boilerplate/app/middleware/notfound_handler.js:5:11)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at responseTime (/Users/dajiaman/开发/后端/egg-boilerplate/app/middleware/responsetime.js:19:12)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'created_at' in 'field list'","sql":"SELECT `id`, `nickname`, `avatar`, `mobile`, `status`, `create_time` AS `created_time`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `user` AS `user` WHERE `user`.`id` = '10001';"}
+original: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'created_at' in 'field list'","sql":"SELECT `id`, `nickname`, `avatar`, `mobile`, `status`, `create_time` AS `created_time`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `user` AS `user` WHERE `user`.`id` = '10001';"}
+sql: "SELECT `id`, `nickname`, `avatar`, `mobile`, `status`, `create_time` AS `created_time`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `user` AS `user` WHERE `user`.`id` = '10001';"
+parameters: undefined
+pid: 19791
+hostname: dajiamandeMacBook-Air.local
+
+2019-11-23 16:41:38,009 ERROR 20050 [-/127.0.0.1/-/41ms POST /api/user/access/login] nodejs.TypeError: ctx.compare is not a function
+    at UserAccessService.login (/Users/dajiaman/开发/后端/egg-boilerplate/app/service/userAccess.js:13:31)
+    at async UserAccessController.login (/Users/dajiaman/开发/后端/egg-boilerplate/app/controller/userAccess.js:34:17)
+    at async notFoundHandler (/Users/dajiaman/开发/后端/egg-boilerplate/app/middleware/notfound_handler.js:5:5)
+    at async /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-bodyparser/index.js:86:5)
+    at async /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-static-cache/index.js:51:63
+    at async notfound (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg/app/middleware/meta.js:12:5)
+
+pid: 20050
+hostname: dajiamandeMacBook-Air.local
+
+2019-11-23 16:43:06,635 ERROR 20059 [-/127.0.0.1/-/71ms POST /api/user/access/login] nodejs.TypeError: ctx.compare is not a function
+    at UserAccessService.login (/Users/dajiaman/开发/后端/egg-boilerplate/app/service/userAccess.js:13:31)
+    at async UserAccessController.login (/Users/dajiaman/开发/后端/egg-boilerplate/app/controller/userAccess.js:34:17)
+    at async notFoundHandler (/Users/dajiaman/开发/后端/egg-boilerplate/app/middleware/notfound_handler.js:5:5)
+    at async /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-bodyparser/index.js:86:5)
+    at async /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-static-cache/index.js:51:63
+    at async notfound (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg/app/middleware/meta.js:12:5)
+
+pid: 20059
+hostname: dajiamandeMacBook-Air.local
+
+2019-11-23 16:49:56,731 ERROR 20090 [-/127.0.0.1/-/40ms POST /api/user/access/login] nodejs.TypeError: ctx.compare is not a function
+    at UserAccessService.login (/Users/dajiaman/开发/后端/egg-boilerplate/app/service/userAccess.js:14:31)
+    at async UserAccessController.login (/Users/dajiaman/开发/后端/egg-boilerplate/app/controller/userAccess.js:34:17)
+    at async notFoundHandler (/Users/dajiaman/开发/后端/egg-boilerplate/app/middleware/notfound_handler.js:5:5)
+    at async /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-bodyparser/index.js:86:5)
+    at async /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-static-cache/index.js:51:63
+    at async notfound (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg/app/middleware/meta.js:12:5)
+
+pid: 20090
+hostname: dajiamandeMacBook-Air.local
+
+2019-11-23 16:51:19,095 ERROR 20092 [-/127.0.0.1/-/46ms POST /api/user/access/login] nodejs.SequelizeDatabaseError: Unknown column 'password' in 'field list'
+    at Query.formatError (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/mysql/query.js:244:16)
+    at Query.handler [as onResult] (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/mysql/query.js:51:23)
+    at Query.execute (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/mysql2/lib/commands/command.js:30:14)
+    at Connection.handlePacket (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/mysql2/lib/connection.js:408:32)
+    at PacketParser.onPacket (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/mysql2/lib/connection.js:70:12)
+    at PacketParser.executeStart (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/mysql2/lib/connection.js:77:25)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:166:17)
+From previous event:
+    at Query.run (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/mysql/query.js:39:12)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:645:29
+From previous event:
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:645:12
+From previous event:
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:641:10
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/retry-as-promised/index.js:60:10)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:631:30
+From previous event:
+    at Sequelize.query (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:580:23)
+    at QueryInterface.select (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/query-interface.js:1121:27)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/model.js:1757:34
+    at processImmediate (internal/timers.js:439:21)
+From previous event:
+    at Function.findAll (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/model.js:1755:8)
+    at Function.findOne (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/model.js:1924:17)
+    at UserService.findByMobile (/Users/dajiaman/开发/后端/egg-boilerplate/app/service/user.js:52:32)
+    at UserAccessService.login (/Users/dajiaman/开发/后端/egg-boilerplate/app/service/userAccess.js:9:37)
+    at UserAccessController.login (/Users/dajiaman/开发/后端/egg-boilerplate/app/controller/userAccess.js:34:42)
+    at Object.callFn (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:45:18)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:44:32)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at notFoundHandler (/Users/dajiaman/开发/后端/egg-boilerplate/app/middleware/notfound_handler.js:5:11)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at responseTime (/Users/dajiaman/开发/后端/egg-boilerplate/app/middleware/responsetime.js:19:12)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'password' in 'field list'","sql":"SELECT `id`, `nickname`, `password`, `avatar`, `mobile`, `signature`, `background_img`, `gender`, `status`, `create_time` AS `created_time`, `update_time` AS `updated_time` FROM `user` AS `user` WHERE `user`.`mobile` = '14551180538 ' LIMIT 1;"}
+original: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'password' in 'field list'","sql":"SELECT `id`, `nickname`, `password`, `avatar`, `mobile`, `signature`, `background_img`, `gender`, `status`, `create_time` AS `created_time`, `update_time` AS `updated_time` FROM `user` AS `user` WHERE `user`.`mobile` = '14551180538 ' LIMIT 1;"}
+sql: "SELECT `id`, `nickname`, `password`, `avatar`, `mobile`, `signature`, `background_img`, `gender`, `status`, `create_time` AS `created_time`, `update_time` AS `updated_time` FROM `user` AS `user` WHERE `user`.`mobile` = '14551180538 ' LIMIT 1;"
+parameters: undefined
+pid: 20092
+hostname: dajiamandeMacBook-Air.local
+
+2019-11-23 16:51:22,247 ERROR 20092 [-/127.0.0.1/-/8ms POST /api/user/access/login] nodejs.SequelizeDatabaseError: Unknown column 'password' in 'field list'
+    at Query.formatError (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/mysql/query.js:244:16)
+    at Query.handler [as onResult] (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/mysql/query.js:51:23)
+    at Query.execute (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/mysql2/lib/commands/command.js:30:14)
+    at Connection.handlePacket (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/mysql2/lib/connection.js:408:32)
+    at PacketParser.onPacket (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/mysql2/lib/connection.js:70:12)
+    at PacketParser.executeStart (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/mysql2/lib/connection.js:77:25)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:166:17)
+From previous event:
+    at Query.run (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/mysql/query.js:39:12)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:645:29
+From previous event:
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:645:12
+From previous event:
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:641:10
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/retry-as-promised/index.js:60:10)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:631:30
+From previous event:
+    at Sequelize.query (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:580:23)
+    at QueryInterface.select (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/query-interface.js:1121:27)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/model.js:1757:34
+    at processImmediate (internal/timers.js:439:21)
+From previous event:
+    at Function.findAll (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/model.js:1755:8)
+    at Function.findOne (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/model.js:1924:17)
+    at UserService.findByMobile (/Users/dajiaman/开发/后端/egg-boilerplate/app/service/user.js:52:32)
+    at UserAccessService.login (/Users/dajiaman/开发/后端/egg-boilerplate/app/service/userAccess.js:9:37)
+    at UserAccessController.login (/Users/dajiaman/开发/后端/egg-boilerplate/app/controller/userAccess.js:34:42)
+    at Object.callFn (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:45:18)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:44:32)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at notFoundHandler (/Users/dajiaman/开发/后端/egg-boilerplate/app/middleware/notfound_handler.js:5:11)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at responseTime (/Users/dajiaman/开发/后端/egg-boilerplate/app/middleware/responsetime.js:19:12)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'password' in 'field list'","sql":"SELECT `id`, `nickname`, `password`, `avatar`, `mobile`, `signature`, `background_img`, `gender`, `status`, `create_time` AS `created_time`, `update_time` AS `updated_time` FROM `user` AS `user` WHERE `user`.`mobile` = '14551180538 ' LIMIT 1;"}
+original: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'password' in 'field list'","sql":"SELECT `id`, `nickname`, `password`, `avatar`, `mobile`, `signature`, `background_img`, `gender`, `status`, `create_time` AS `created_time`, `update_time` AS `updated_time` FROM `user` AS `user` WHERE `user`.`mobile` = '14551180538 ' LIMIT 1;"}
+sql: "SELECT `id`, `nickname`, `password`, `avatar`, `mobile`, `signature`, `background_img`, `gender`, `status`, `create_time` AS `created_time`, `update_time` AS `updated_time` FROM `user` AS `user` WHERE `user`.`mobile` = '14551180538 ' LIMIT 1;"
+parameters: undefined
+pid: 20092
+hostname: dajiamandeMacBook-Air.local
+
+2019-11-23 16:52:09,874 ERROR 20096 [-/127.0.0.1/-/48ms POST /api/user/access/login] nodejs.SequelizeDatabaseError: Unknown column 'password' in 'field list'
+    at Query.formatError (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/mysql/query.js:244:16)
+    at Query.handler [as onResult] (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/mysql/query.js:51:23)
+    at Query.execute (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/mysql2/lib/commands/command.js:30:14)
+    at Connection.handlePacket (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/mysql2/lib/connection.js:408:32)
+    at PacketParser.onPacket (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/mysql2/lib/connection.js:70:12)
+    at PacketParser.executeStart (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/mysql2/lib/connection.js:77:25)
+    at Socket.emit (events.js:209:13)
+    at addChunk (_stream_readable.js:305:12)
+    at readableAddChunk (_stream_readable.js:286:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:166:17)
+From previous event:
+    at Query.run (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/mysql/query.js:39:12)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:645:29
+From previous event:
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:645:12
+From previous event:
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:641:10
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/retry-as-promised/index.js:60:10)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:631:30
+From previous event:
+    at Sequelize.query (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:580:23)
+    at QueryInterface.select (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/query-interface.js:1121:27)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/model.js:1757:34
+    at processImmediate (internal/timers.js:439:21)
+From previous event:
+    at Function.findAll (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/model.js:1755:8)
+    at Function.findOne (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/model.js:1924:17)
+    at UserService.findByMobile (/Users/dajiaman/开发/后端/egg-boilerplate/app/service/user.js:52:32)
+    at UserAccessService.login (/Users/dajiaman/开发/后端/egg-boilerplate/app/service/userAccess.js:9:37)
+    at UserAccessController.login (/Users/dajiaman/开发/后端/egg-boilerplate/app/controller/userAccess.js:34:42)
+    at Object.callFn (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:45:18)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:44:32)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at notFoundHandler (/Users/dajiaman/开发/后端/egg-boilerplate/app/middleware/notfound_handler.js:5:11)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at responseTime (/Users/dajiaman/开发/后端/egg-boilerplate/app/middleware/responsetime.js:19:12)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'password' in 'field list'","sql":"SELECT `id`, `nickname`, `password`, `avatar`, `mobile`, `signature`, `background_img`, `gender`, `status`, `create_time` AS `created_time`, `update_time` AS `updated_time` FROM `user` AS `user` WHERE `user`.`mobile` = '14551180538 ' LIMIT 1;"}
+original: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlState":"42S22","sqlMessage":"Unknown column 'password' in 'field list'","sql":"SELECT `id`, `nickname`, `password`, `avatar`, `mobile`, `signature`, `background_img`, `gender`, `status`, `create_time` AS `created_time`, `update_time` AS `updated_time` FROM `user` AS `user` WHERE `user`.`mobile` = '14551180538 ' LIMIT 1;"}
+sql: "SELECT `id`, `nickname`, `password`, `avatar`, `mobile`, `signature`, `background_img`, `gender`, `status`, `create_time` AS `created_time`, `update_time` AS `updated_time` FROM `user` AS `user` WHERE `user`.`mobile` = '14551180538 ' LIMIT 1;"
+parameters: undefined
+pid: 20096
+hostname: dajiamandeMacBook-Air.local
+
+2019-11-23 16:52:34,370 ERROR 20098 [-/127.0.0.1/-/57ms POST /api/user/access/login] nodejs.TypeError: ctx.compare is not a function
+    at UserAccessService.login (/Users/dajiaman/开发/后端/egg-boilerplate/app/service/userAccess.js:14:31)
+    at async UserAccessController.login (/Users/dajiaman/开发/后端/egg-boilerplate/app/controller/userAccess.js:34:17)
+    at async notFoundHandler (/Users/dajiaman/开发/后端/egg-boilerplate/app/middleware/notfound_handler.js:5:5)
+    at async /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-bodyparser/index.js:86:5)
+    at async /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-static-cache/index.js:51:63
+    at async notfound (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg/app/middleware/meta.js:12:5)
+
+pid: 20098
+hostname: dajiamandeMacBook-Air.local
+
+2019-11-23 16:53:33,103 ERROR 20098 [-/127.0.0.1/-/22ms POST /api/user/access/login] nodejs.TypeError: ctx.compare is not a function
+    at UserAccessService.login (/Users/dajiaman/开发/后端/egg-boilerplate/app/service/userAccess.js:14:31)
+    at async UserAccessController.login (/Users/dajiaman/开发/后端/egg-boilerplate/app/controller/userAccess.js:34:17)
+    at async notFoundHandler (/Users/dajiaman/开发/后端/egg-boilerplate/app/middleware/notfound_handler.js:5:5)
+    at async /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-bodyparser/index.js:86:5)
+    at async /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-static-cache/index.js:51:63
+    at async notfound (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg/app/middleware/meta.js:12:5)
+
+pid: 20098
+hostname: dajiamandeMacBook-Air.local
+
+2019-11-23 16:56:49,664 ERROR 20167 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeHostNotFoundError: getaddrinfo ENOTFOUND localhost
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:127:19
+From previous event:
+    at ConnectionManager.connect (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:120:13)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:50
+    at processImmediate (internal/timers.js:439:21)
+From previous event:
+    at ConnectionManager._connect (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:8)
+    at ConnectionManager.getConnection (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:247:46)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:640:36
+From previous event:
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:631:53
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/retry-as-promised/index.js:60:10)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:631:30
+From previous event:
+    at Sequelize.query (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:580:23)
+    at Sequelize.authenticate (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:892:17)
+    at authenticate (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-sequelize/lib/loader.js:134:22)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-sequelize/lib/loader.js:40:49
+    at Array.map (<anonymous>)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-sequelize/lib/loader.js:40:33
+    at Object.callFn (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-core/lib/lifecycle.js:262:13
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+name: "SequelizeHostNotFoundError"
+parent: {"errno":"ENOTFOUND","code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"localhost","fatal":true}
+original: {"errno":"ENOTFOUND","code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"localhost","fatal":true}
+pid: 20167
+hostname: dajiamandeMacBook-Air.local
+
+2019-11-23 16:57:16,449 ERROR 20179 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeHostNotFoundError: getaddrinfo ENOTFOUND localhost
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:127:19
+From previous event:
+    at ConnectionManager.connect (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:120:13)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:50
+    at processImmediate (internal/timers.js:439:21)
+From previous event:
+    at ConnectionManager._connect (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:8)
+    at ConnectionManager.getConnection (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:247:46)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:640:36
+From previous event:
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:631:53
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/retry-as-promised/index.js:60:10)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:631:30
+From previous event:
+    at Sequelize.query (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:580:23)
+    at Sequelize.authenticate (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:892:17)
+    at authenticate (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-sequelize/lib/loader.js:134:22)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-sequelize/lib/loader.js:40:49
+    at Array.map (<anonymous>)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-sequelize/lib/loader.js:40:33
+    at Object.callFn (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-core/lib/lifecycle.js:262:13
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+name: "SequelizeHostNotFoundError"
+parent: {"errno":"ENOTFOUND","code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"localhost","fatal":true}
+original: {"errno":"ENOTFOUND","code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"localhost","fatal":true}
+pid: 20179
+hostname: dajiamandeMacBook-Air.local
+
+2019-11-23 16:57:18,266 ERROR 20181 [-/127.0.0.1/-/1ms GET /] nodejs.SequelizeHostNotFoundError: getaddrinfo ENOTFOUND localhost
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:127:19
+From previous event:
+    at ConnectionManager.connect (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:120:13)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:50
+    at processImmediate (internal/timers.js:439:21)
+From previous event:
+    at ConnectionManager._connect (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:8)
+    at ConnectionManager.getConnection (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:247:46)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:640:36
+From previous event:
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:631:53
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/retry-as-promised/index.js:60:10)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:631:30
+From previous event:
+    at Sequelize.query (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:580:23)
+    at Sequelize.authenticate (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:892:17)
+    at authenticate (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-sequelize/lib/loader.js:134:22)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-sequelize/lib/loader.js:40:49
+    at Array.map (<anonymous>)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-sequelize/lib/loader.js:40:33
+    at Object.callFn (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-core/lib/lifecycle.js:262:13
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+name: "SequelizeHostNotFoundError"
+parent: {"errno":"ENOTFOUND","code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"localhost","fatal":true}
+original: {"errno":"ENOTFOUND","code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"localhost","fatal":true}
+pid: 20181
+hostname: dajiamandeMacBook-Air.local
+
+2019-11-23 16:57:19,886 ERROR 20184 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeHostNotFoundError: getaddrinfo ENOTFOUND localhost
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:127:19
+From previous event:
+    at ConnectionManager.connect (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:120:13)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:50
+    at processImmediate (internal/timers.js:439:21)
+From previous event:
+    at ConnectionManager._connect (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:8)
+    at ConnectionManager.getConnection (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:247:46)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:640:36
+From previous event:
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:631:53
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/retry-as-promised/index.js:60:10)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:631:30
+From previous event:
+    at Sequelize.query (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:580:23)
+    at Sequelize.authenticate (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:892:17)
+    at authenticate (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-sequelize/lib/loader.js:134:22)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-sequelize/lib/loader.js:40:49
+    at Array.map (<anonymous>)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-sequelize/lib/loader.js:40:33
+    at Object.callFn (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-core/lib/lifecycle.js:262:13
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+name: "SequelizeHostNotFoundError"
+parent: {"errno":"ENOTFOUND","code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"localhost","fatal":true}
+original: {"errno":"ENOTFOUND","code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"localhost","fatal":true}
+pid: 20184
+hostname: dajiamandeMacBook-Air.local
+
+2019-11-23 16:57:40,986 ERROR 20207 nodejs.SequelizeHostNotFoundError: getaddrinfo ENOTFOUND localhost
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:127:19
+From previous event:
+    at ConnectionManager.connect (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:120:13)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:50
+    at processImmediate (internal/timers.js:439:21)
+From previous event:
+    at ConnectionManager._connect (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:8)
+    at ConnectionManager.getConnection (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:247:46)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:640:36
+From previous event:
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:631:53
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/retry-as-promised/index.js:60:10)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:631:30
+From previous event:
+    at Sequelize.query (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:580:23)
+    at Sequelize.authenticate (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:892:17)
+    at authenticate (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-sequelize/lib/loader.js:134:22)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-sequelize/lib/loader.js:40:49
+    at Array.map (<anonymous>)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-sequelize/lib/loader.js:40:33
+    at Object.callFn (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-core/lib/lifecycle.js:262:13
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+name: "SequelizeHostNotFoundError"
+parent: {"errno":"ENOTFOUND","code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"localhost","fatal":true}
+original: {"errno":"ENOTFOUND","code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"localhost","fatal":true}
+pid: 20207
+hostname: dajiamandeMacBook-Air.local
+
+2019-11-23 16:58:36,945 ERROR 20225 nodejs.SequelizeHostNotFoundError: getaddrinfo ENOTFOUND localhost
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:127:19
+From previous event:
+    at ConnectionManager.connect (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:120:13)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:50
+    at processImmediate (internal/timers.js:439:21)
+From previous event:
+    at ConnectionManager._connect (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:8)
+    at ConnectionManager.getConnection (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:247:46)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:640:36
+From previous event:
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:631:53
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/retry-as-promised/index.js:60:10)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:631:30
+From previous event:
+    at Sequelize.query (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:580:23)
+    at Sequelize.authenticate (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:892:17)
+    at authenticate (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-sequelize/lib/loader.js:134:22)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-sequelize/lib/loader.js:40:49
+    at Array.map (<anonymous>)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-sequelize/lib/loader.js:40:33
+    at Object.callFn (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-core/lib/lifecycle.js:262:13
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+name: "SequelizeHostNotFoundError"
+parent: {"errno":"ENOTFOUND","code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"localhost","fatal":true}
+original: {"errno":"ENOTFOUND","code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"localhost","fatal":true}
+pid: 20225
+hostname: dajiamandeMacBook-Air.local
+
+2019-11-23 16:58:53,960 ERROR 20258 nodejs.SequelizeHostNotFoundError: getaddrinfo ENOTFOUND localhost
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:127:19
+From previous event:
+    at ConnectionManager.connect (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:120:13)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:50
+    at processImmediate (internal/timers.js:439:21)
+From previous event:
+    at ConnectionManager._connect (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:8)
+    at ConnectionManager.getConnection (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:247:46)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:640:36
+From previous event:
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:631:53
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/retry-as-promised/index.js:60:10)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:631:30
+From previous event:
+    at Sequelize.query (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:580:23)
+    at Sequelize.authenticate (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/sequelize.js:892:17)
+    at authenticate (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-sequelize/lib/loader.js:134:22)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-sequelize/lib/loader.js:40:49
+    at Array.map (<anonymous>)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-sequelize/lib/loader.js:40:33
+    at Object.callFn (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-core/lib/utils/index.js:44:42)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-core/lib/lifecycle.js:262:13
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+name: "SequelizeHostNotFoundError"
+parent: {"errno":"ENOTFOUND","code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"localhost","fatal":true}
+original: {"errno":"ENOTFOUND","code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"localhost","fatal":true}
+pid: 20258
+hostname: dajiamandeMacBook-Air.local
+
+2019-11-23 16:59:34,873 ERROR 20273 [egg-bcrypt] Error: Illegal arguments: string, object
+    at _async (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/bcryptjs/dist/bcrypt.js:286:46)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/bcryptjs/dist/bcrypt.js:307:17
+    at new Promise (<anonymous>)
+    at Object.bcrypt.compare (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/bcryptjs/dist/bcrypt.js:306:20)
+    at Object.compare (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-bcrypt/app/extend/context.js:13:8)
+    at UserAccessService.login (/Users/dajiaman/开发/后端/egg-boilerplate/app/service/userAccess.js:14:31)
+    at async UserAccessController.login (/Users/dajiaman/开发/后端/egg-boilerplate/app/controller/userAccess.js:34:17)
+    at async notFoundHandler (/Users/dajiaman/开发/后端/egg-boilerplate/app/middleware/notfound_handler.js:5:5)
+    at async /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-bodyparser/index.js:86:5)
+    at async /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-static-cache/index.js:51:63
+    at async notfound (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg/app/middleware/meta.js:12:5)
+2019-11-23 17:03:33,606 ERROR 20304 [-/127.0.0.1/-/253ms POST /api/user/access/login] nodejs.TypeError: Cannot read property 'apply' of undefined
+    at UserAccessService.login (/Users/dajiaman/开发/后端/egg-boilerplate/app/service/userAccess.js:24:47)
+    at async UserAccessController.login (/Users/dajiaman/开发/后端/egg-boilerplate/app/controller/userAccess.js:34:17)
+    at async notFoundHandler (/Users/dajiaman/开发/后端/egg-boilerplate/app/middleware/notfound_handler.js:5:5)
+    at async /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-bodyparser/index.js:86:5)
+    at async /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-static-cache/index.js:51:63
+    at async notfound (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg/app/middleware/meta.js:12:5)
+
+pid: 20304
+hostname: dajiamandeMacBook-Air.local
+
+2019-11-23 17:05:07,119 ERROR 20309 [-/127.0.0.1/-/407ms POST /api/user/access/login] nodejs.TypeError: Cannot read property 'apply' of undefined
+    at UserAccessService.login (/Users/dajiaman/开发/后端/egg-boilerplate/app/service/userAccess.js:24:47)
+    at async UserAccessController.login (/Users/dajiaman/开发/后端/egg-boilerplate/app/controller/userAccess.js:34:17)
+    at async notFoundHandler (/Users/dajiaman/开发/后端/egg-boilerplate/app/middleware/notfound_handler.js:5:5)
+    at async /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-bodyparser/index.js:86:5)
+    at async /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-static-cache/index.js:51:63
+    at async notfound (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg/app/middleware/meta.js:12:5)
+
+pid: 20309
+hostname: dajiamandeMacBook-Air.local
+
+2019-11-23 17:05:41,710 ERROR 20311 [-/127.0.0.1/-/288ms POST /api/user/access/login] nodejs.TypeError: Cannot read property 'apply' of undefined
+    at UserAccessService.login (/Users/dajiaman/开发/后端/egg-boilerplate/app/service/userAccess.js:23:47)
+    at async UserAccessController.login (/Users/dajiaman/开发/后端/egg-boilerplate/app/controller/userAccess.js:34:17)
+    at async notFoundHandler (/Users/dajiaman/开发/后端/egg-boilerplate/app/middleware/notfound_handler.js:5:5)
+    at async /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-bodyparser/index.js:86:5)
+    at async /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-static-cache/index.js:51:63
+    at async notfound (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg/app/middleware/meta.js:12:5)
+
+pid: 20311
+hostname: dajiamandeMacBook-Air.local
+
+2019-11-23 17:06:56,598 ERROR 20330 [-/127.0.0.1/-/261ms POST /api/user/access/login] nodejs.TypeError: Cannot read property 'apply' of undefined
+    at UserAccessService.login (/Users/dajiaman/开发/后端/egg-boilerplate/app/service/userAccess.js:20:47)
+    at async UserAccessController.login (/Users/dajiaman/开发/后端/egg-boilerplate/app/controller/userAccess.js:34:17)
+    at async notFoundHandler (/Users/dajiaman/开发/后端/egg-boilerplate/app/middleware/notfound_handler.js:5:5)
+    at async /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-bodyparser/index.js:86:5)
+    at async /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-static-cache/index.js:51:63
+    at async notfound (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg/app/middleware/meta.js:12:5)
+
+pid: 20330
+hostname: dajiamandeMacBook-Air.local
+
+2019-11-23 17:07:02,820 ERROR 20330 [-/127.0.0.1/-/131ms POST /api/user/access/login] nodejs.TypeError: Cannot read property 'apply' of undefined
+    at UserAccessService.login (/Users/dajiaman/开发/后端/egg-boilerplate/app/service/userAccess.js:20:47)
+    at async UserAccessController.login (/Users/dajiaman/开发/后端/egg-boilerplate/app/controller/userAccess.js:34:17)
+    at async notFoundHandler (/Users/dajiaman/开发/后端/egg-boilerplate/app/middleware/notfound_handler.js:5:5)
+    at async /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-bodyparser/index.js:86:5)
+    at async /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-static-cache/index.js:51:63
+    at async notfound (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg/app/middleware/meta.js:12:5)
+
+pid: 20330
+hostname: dajiamandeMacBook-Air.local
+
+2019-11-23 17:12:01,798 ERROR 20373 [-/127.0.0.1/-/16ms GET /api/user/access/current] nodejs.ReferenceError: co is not defined
+    at UserAccessService.current (/Users/dajiaman/开发/后端/egg-boilerplate/app/service/userAccess.js:51:5)
+    at async UserAccessController.current (/Users/dajiaman/开发/后端/egg-boilerplate/app/controller/userAccess.js:64:17)
+    at async middleware (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-jwt2/lib/index.js:145:5)
+    at async notFoundHandler (/Users/dajiaman/开发/后端/egg-boilerplate/app/middleware/notfound_handler.js:5:5)
+    at async /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-bodyparser/index.js:86:5)
+    at async /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-static-cache/index.js:53:56
+    at async notfound (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg/app/middleware/meta.js:12:5)
+
+pid: 20373
+hostname: dajiamandeMacBook-Air.local
+
+2019-11-23 17:40:00,700 ERROR 20272 nodejs.ClusterClientNoResponseError: client no response in 241985ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 20272
+hostname: dajiamandeMacBook-Air.local
+
+2019-11-23 17:47:22,645 ERROR 20272 nodejs.ClusterClientNoResponseError: client no response in 301904ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 20272
+hostname: dajiamandeMacBook-Air.local
+
+2019-11-23 18:31:45,303 ERROR 20272 nodejs.ClusterClientNoResponseError: client no response in 2662650ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 20272
+hostname: dajiamandeMacBook-Air.local
+
+2019-11-23 18:39:14,562 ERROR 20716 [-/::1/-/238ms POST /api/user/access/resetPsw] nodejs.AssertionError: Missing where attribute in the options parameter
+    at Function._optionsMustContainWhere (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/model.js:3427:5)
+    at Function.update (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/sequelize/lib/model.js:3053:10)
+    at UserService.findByIdAndUpdate (/Users/dajiaman/开发/后端/egg-boilerplate/app/service/user.js:61:32)
+    at UserAccessService.resetPsw (/Users/dajiaman/开发/后端/egg-boilerplate/app/service/userAccess.js:42:27)
+    at async UserAccessController.resetPsw (/Users/dajiaman/开发/后端/egg-boilerplate/app/controller/userAccess.js:56:5)
+    at async middleware (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-jwt2/lib/index.js:145:5)
+    at async notFoundHandler (/Users/dajiaman/开发/后端/egg-boilerplate/app/middleware/notfound_handler.js:5:5)
+    at async /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-bodyparser/index.js:86:5)
+    at async /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-static-cache/index.js:51:63
+    at async notfound (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg/app/middleware/meta.js:12:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 20716
+hostname: dajiamandeMacBook-Air.local
+
+2019-11-23 18:42:08,909 ERROR 20733 [-/::1/-/226ms POST /api/user/access/resetPsw] nodejs.ReferenceError: value is not defined
+    at UserService.findByIdAndUpdate (/Users/dajiaman/开发/后端/egg-boilerplate/app/service/user.js:61:39)
+    at UserAccessService.resetPsw (/Users/dajiaman/开发/后端/egg-boilerplate/app/service/userAccess.js:42:27)
+    at async UserAccessController.resetPsw (/Users/dajiaman/开发/后端/egg-boilerplate/app/controller/userAccess.js:56:5)
+    at async middleware (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-jwt2/lib/index.js:145:5)
+    at async notFoundHandler (/Users/dajiaman/开发/后端/egg-boilerplate/app/middleware/notfound_handler.js:5:5)
+    at async /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-bodyparser/index.js:86:5)
+    at async /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-static-cache/index.js:51:63
+    at async notfound (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg/app/middleware/meta.js:12:5)
+
+pid: 20733
+hostname: dajiamandeMacBook-Air.local
+
+2019-11-23 19:14:06,017 ERROR 20912 [egg-bcrypt] Error: Illegal arguments: string, undefined
+    at _async (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/bcryptjs/dist/bcrypt.js:286:46)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/bcryptjs/dist/bcrypt.js:307:17
+    at new Promise (<anonymous>)
+    at Object.bcrypt.compare (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/bcryptjs/dist/bcrypt.js:306:20)
+    at Object.compare (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-bcrypt/app/extend/context.js:13:8)
+    at UserAccessService.resetPsw (/Users/dajiaman/开发/后端/egg-boilerplate/app/service/userAccess.js:41:31)
+    at async UserAccessController.resetPsw (/Users/dajiaman/开发/后端/egg-boilerplate/app/controller/userAccess.js:56:5)
+    at async middleware (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-jwt2/lib/index.js:145:5)
+    at async notFoundHandler (/Users/dajiaman/开发/后端/egg-boilerplate/app/middleware/notfound_handler.js:5:5)
+    at async /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-bodyparser/index.js:86:5)
+    at async /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-static-cache/index.js:51:63
+    at async notfound (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg/app/middleware/meta.js:12:5)
+2019-11-23 19:14:10,040 ERROR 20912 [egg-bcrypt] Error: Illegal arguments: string, undefined
+    at _async (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/bcryptjs/dist/bcrypt.js:286:46)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/bcryptjs/dist/bcrypt.js:307:17
+    at new Promise (<anonymous>)
+    at Object.bcrypt.compare (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/bcryptjs/dist/bcrypt.js:306:20)
+    at Object.compare (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-bcrypt/app/extend/context.js:13:8)
+    at UserAccessService.resetPsw (/Users/dajiaman/开发/后端/egg-boilerplate/app/service/userAccess.js:41:31)
+    at async UserAccessController.resetPsw (/Users/dajiaman/开发/后端/egg-boilerplate/app/controller/userAccess.js:56:5)
+    at async middleware (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-jwt2/lib/index.js:145:5)
+    at async notFoundHandler (/Users/dajiaman/开发/后端/egg-boilerplate/app/middleware/notfound_handler.js:5:5)
+    at async /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-bodyparser/index.js:86:5)
+    at async /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-static-cache/index.js:51:63
+    at async notfound (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg/app/middleware/meta.js:12:5)
+2019-11-23 19:14:11,542 ERROR 20912 [egg-bcrypt] Error: Illegal arguments: string, undefined
+    at _async (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/bcryptjs/dist/bcrypt.js:286:46)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/bcryptjs/dist/bcrypt.js:307:17
+    at new Promise (<anonymous>)
+    at Object.bcrypt.compare (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/bcryptjs/dist/bcrypt.js:306:20)
+    at Object.compare (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-bcrypt/app/extend/context.js:13:8)
+    at UserAccessService.resetPsw (/Users/dajiaman/开发/后端/egg-boilerplate/app/service/userAccess.js:41:31)
+    at async UserAccessController.resetPsw (/Users/dajiaman/开发/后端/egg-boilerplate/app/controller/userAccess.js:56:5)
+    at async middleware (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-jwt2/lib/index.js:145:5)
+    at async notFoundHandler (/Users/dajiaman/开发/后端/egg-boilerplate/app/middleware/notfound_handler.js:5:5)
+    at async /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-bodyparser/index.js:86:5)
+    at async /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-static-cache/index.js:51:63
+    at async notfound (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg/app/middleware/meta.js:12:5)
+2019-11-23 19:14:12,645 ERROR 20912 [egg-bcrypt] Error: Illegal arguments: string, undefined
+    at _async (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/bcryptjs/dist/bcrypt.js:286:46)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/bcryptjs/dist/bcrypt.js:307:17
+    at new Promise (<anonymous>)
+    at Object.bcrypt.compare (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/bcryptjs/dist/bcrypt.js:306:20)
+    at Object.compare (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-bcrypt/app/extend/context.js:13:8)
+    at UserAccessService.resetPsw (/Users/dajiaman/开发/后端/egg-boilerplate/app/service/userAccess.js:41:31)
+    at async UserAccessController.resetPsw (/Users/dajiaman/开发/后端/egg-boilerplate/app/controller/userAccess.js:56:5)
+    at async middleware (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-jwt2/lib/index.js:145:5)
+    at async notFoundHandler (/Users/dajiaman/开发/后端/egg-boilerplate/app/middleware/notfound_handler.js:5:5)
+    at async /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-bodyparser/index.js:86:5)
+    at async /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-static-cache/index.js:51:63
+    at async notfound (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg/app/middleware/meta.js:12:5)
+2019-11-23 19:14:16,317 ERROR 20912 [egg-bcrypt] Error: Illegal arguments: string, undefined
+    at _async (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/bcryptjs/dist/bcrypt.js:286:46)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/bcryptjs/dist/bcrypt.js:307:17
+    at new Promise (<anonymous>)
+    at Object.bcrypt.compare (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/bcryptjs/dist/bcrypt.js:306:20)
+    at Object.compare (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-bcrypt/app/extend/context.js:13:8)
+    at UserAccessService.resetPsw (/Users/dajiaman/开发/后端/egg-boilerplate/app/service/userAccess.js:41:31)
+    at async UserAccessController.resetPsw (/Users/dajiaman/开发/后端/egg-boilerplate/app/controller/userAccess.js:56:5)
+    at async middleware (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-jwt2/lib/index.js:145:5)
+    at async notFoundHandler (/Users/dajiaman/开发/后端/egg-boilerplate/app/middleware/notfound_handler.js:5:5)
+    at async /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-bodyparser/index.js:86:5)
+    at async /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-static-cache/index.js:51:63
+    at async notfound (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg/app/middleware/meta.js:12:5)
+2019-11-23 19:14:17,355 ERROR 20912 [egg-bcrypt] Error: Illegal arguments: string, undefined
+    at _async (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/bcryptjs/dist/bcrypt.js:286:46)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/bcryptjs/dist/bcrypt.js:307:17
+    at new Promise (<anonymous>)
+    at Object.bcrypt.compare (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/bcryptjs/dist/bcrypt.js:306:20)
+    at Object.compare (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-bcrypt/app/extend/context.js:13:8)
+    at UserAccessService.resetPsw (/Users/dajiaman/开发/后端/egg-boilerplate/app/service/userAccess.js:41:31)
+    at async UserAccessController.resetPsw (/Users/dajiaman/开发/后端/egg-boilerplate/app/controller/userAccess.js:56:5)
+    at async middleware (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-jwt2/lib/index.js:145:5)
+    at async notFoundHandler (/Users/dajiaman/开发/后端/egg-boilerplate/app/middleware/notfound_handler.js:5:5)
+    at async /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-bodyparser/index.js:86:5)
+    at async /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-static-cache/index.js:51:63
+    at async notfound (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg/app/middleware/meta.js:12:5)
+2019-11-23 19:16:13,913 ERROR 20919 [-/::1/-/22ms POST /api/upload/url] nodejs.TypeError: this.ctx.model.Attachment is not a constructor
+    at UploadController.url (/Users/dajiaman/开发/后端/egg-boilerplate/app/controller/upload.js:50:24)
+    at Object.callFn (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:45:18)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:44:32)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at notFoundHandler (/Users/dajiaman/开发/后端/egg-boilerplate/app/middleware/notfound_handler.js:5:11)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at responseTime (/Users/dajiaman/开发/后端/egg-boilerplate/app/middleware/responsetime.js:19:12)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+
+pid: 20919
+hostname: dajiamandeMacBook-Air.local
+
+2019-11-23 19:17:33,490 ERROR 20940 [-/::1/-/517ms POST /api/upload/url] nodejs.ENOENTError: ENOENT: no such file or directory, open '/Users/dajiaman/开发/后端/egg-boilerplate/app/public/uploads/FqGwSGSe2gjraF02rIOZ48F3equ6.'
+ENOENTError: ENOENT: no such file or directory, open '/Users/dajiaman/开发/后端/egg-boilerplate/app/public/uploads/FqGwSGSe2gjraF02rIOZ48F3equ6.'
+errno: -2
+code: "ENOENT"
+syscall: "open"
+path: "/Users/dajiaman/开发/后端/egg-boilerplate/app/public/uploads/FqGwSGSe2gjraF02rIOZ48F3equ6."
+name: "ENOENTError"
+pid: 20940
+hostname: dajiamandeMacBook-Air.local
+
+2019-11-23 19:21:15,582 ERROR 20951 [-/::1/-/19ms POST /api/upload/url] nodejs.TypeError: Cannot read property 'extname' of undefined
+    at UploadController.url (/Users/dajiaman/开发/后端/egg-boilerplate/app/controller/upload.js:59:47)
+    at Object.callFn (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:45:18)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:44:32)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at notFoundHandler (/Users/dajiaman/开发/后端/egg-boilerplate/app/middleware/notfound_handler.js:5:11)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at responseTime (/Users/dajiaman/开发/后端/egg-boilerplate/app/middleware/responsetime.js:19:12)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/dajiaman/开发/后端/egg-boilerplate/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+
+pid: 20951
+hostname: dajiamandeMacBook-Air.local
+

@@ -1,0 +1,334 @@
+2019-11-10 20:54:46,305 INFO 52087 [egg:logger] init all loggers with options: {"dir":"/Users/dajiaman/开发/后端/egg-boilerplate/logs/egg-boilerplate","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-boilerplate-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-10 20:54:46,345 INFO 52087 [egg-multipart] stream mode enable
+2019-11-10 20:54:46,929 INFO 52087 [egg-static] starting static serve /public/ -> /Users/dajiaman/开发/后端/egg-boilerplate/app/public
+2019-11-10 20:54:46,932 INFO 52087 [egg-security] use csrf middleware
+2019-11-10 20:54:46,934 INFO 52087 [egg-security] use methodnoallow middleware
+2019-11-10 20:54:46,936 INFO 52087 [egg-security] use noopen middleware
+2019-11-10 20:54:46,938 INFO 52087 [egg-security] use nosniff middleware
+2019-11-10 20:54:46,939 INFO 52087 [egg-security] use xssProtection middleware
+2019-11-10 20:54:46,940 INFO 52087 [egg-security] use xframe middleware
+2019-11-10 20:54:46,941 INFO 52087 [egg-security] use dta middleware
+2019-11-10 20:54:46,941 INFO 52087 [egg-security] compose 7 middlewares into one security middleware
+2019-11-10 20:54:46,961 INFO 52087 [egg:core] dump config after load, 10ms
+2019-11-10 20:54:47,002 INFO 52087 [egg-watcher:application] watcher start success
+2019-11-10 20:54:47,131 INFO 52087 [egg:core] dump config after ready, 5ms
+2019-11-10 20:55:41,428 INFO 52090 [egg:logger] init all loggers with options: {"dir":"/Users/dajiaman/开发/后端/egg-boilerplate/logs/egg-boilerplate","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-boilerplate-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-10 20:55:41,458 INFO 52090 [egg-multipart] stream mode enable
+2019-11-10 20:55:41,966 INFO 52090 [egg-static] starting static serve /public/ -> /Users/dajiaman/开发/后端/egg-boilerplate/app/public
+2019-11-10 20:55:41,968 INFO 52090 [egg-security] use csrf middleware
+2019-11-10 20:55:41,970 INFO 52090 [egg-security] use methodnoallow middleware
+2019-11-10 20:55:41,970 INFO 52090 [egg-security] use noopen middleware
+2019-11-10 20:55:41,971 INFO 52090 [egg-security] use nosniff middleware
+2019-11-10 20:55:41,972 INFO 52090 [egg-security] use xssProtection middleware
+2019-11-10 20:55:41,972 INFO 52090 [egg-security] use xframe middleware
+2019-11-10 20:55:41,973 INFO 52090 [egg-security] use dta middleware
+2019-11-10 20:55:41,973 INFO 52090 [egg-security] compose 7 middlewares into one security middleware
+2019-11-10 20:55:41,984 INFO 52090 [egg:core] dump config after load, 5ms
+2019-11-10 20:55:42,020 INFO 52090 [egg-watcher:application] watcher start success
+2019-11-10 20:55:42,069 INFO 52090 [egg:core] dump config after ready, 5ms
+2019-11-10 20:55:48,313 INFO 52091 [egg:logger] init all loggers with options: {"dir":"/Users/dajiaman/开发/后端/egg-boilerplate/logs/egg-boilerplate","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-boilerplate-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-10 20:55:48,339 INFO 52091 [egg-multipart] stream mode enable
+2019-11-10 20:55:48,551 INFO 52091 [egg-static] starting static serve /public/ -> /Users/dajiaman/开发/后端/egg-boilerplate/app/public
+2019-11-10 20:55:48,555 INFO 52091 [egg-security] use csrf middleware
+2019-11-10 20:55:48,556 INFO 52091 [egg-security] use methodnoallow middleware
+2019-11-10 20:55:48,556 INFO 52091 [egg-security] use noopen middleware
+2019-11-10 20:55:48,556 INFO 52091 [egg-security] use nosniff middleware
+2019-11-10 20:55:48,557 INFO 52091 [egg-security] use xssProtection middleware
+2019-11-10 20:55:48,557 INFO 52091 [egg-security] use xframe middleware
+2019-11-10 20:55:48,557 INFO 52091 [egg-security] use dta middleware
+2019-11-10 20:55:48,557 INFO 52091 [egg-security] compose 7 middlewares into one security middleware
+2019-11-10 20:55:48,565 INFO 52091 [egg:core] dump config after load, 5ms
+2019-11-10 20:55:48,596 INFO 52091 [egg-watcher:application] watcher start success
+2019-11-10 20:55:48,635 INFO 52091 [egg:core] dump config after ready, 5ms
+2019-11-10 20:56:01,213 INFO 52092 [egg:logger] init all loggers with options: {"dir":"/Users/dajiaman/开发/后端/egg-boilerplate/logs/egg-boilerplate","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-boilerplate-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-10 20:56:01,235 INFO 52092 [egg-multipart] stream mode enable
+2019-11-10 20:56:01,447 INFO 52092 [egg-static] starting static serve /public/ -> /Users/dajiaman/开发/后端/egg-boilerplate/app/public
+2019-11-10 20:56:01,449 INFO 52092 [egg-security] use csrf middleware
+2019-11-10 20:56:01,450 INFO 52092 [egg-security] use methodnoallow middleware
+2019-11-10 20:56:01,450 INFO 52092 [egg-security] use noopen middleware
+2019-11-10 20:56:01,450 INFO 52092 [egg-security] use nosniff middleware
+2019-11-10 20:56:01,450 INFO 52092 [egg-security] use xssProtection middleware
+2019-11-10 20:56:01,451 INFO 52092 [egg-security] use xframe middleware
+2019-11-10 20:56:01,451 INFO 52092 [egg-security] use dta middleware
+2019-11-10 20:56:01,451 INFO 52092 [egg-security] compose 7 middlewares into one security middleware
+2019-11-10 20:56:01,458 INFO 52092 [egg:core] dump config after load, 4ms
+2019-11-10 20:56:01,487 INFO 52092 [egg-watcher:application] watcher start success
+2019-11-10 20:56:01,529 INFO 52092 [egg:core] dump config after ready, 4ms
+2019-11-10 20:56:03,497 INFO 52093 [egg:logger] init all loggers with options: {"dir":"/Users/dajiaman/开发/后端/egg-boilerplate/logs/egg-boilerplate","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-boilerplate-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-10 20:56:03,520 INFO 52093 [egg-multipart] stream mode enable
+2019-11-10 20:56:03,745 INFO 52093 [egg-static] starting static serve /public/ -> /Users/dajiaman/开发/后端/egg-boilerplate/app/public
+2019-11-10 20:56:03,748 INFO 52093 [egg-security] use csrf middleware
+2019-11-10 20:56:03,748 INFO 52093 [egg-security] use methodnoallow middleware
+2019-11-10 20:56:03,749 INFO 52093 [egg-security] use noopen middleware
+2019-11-10 20:56:03,749 INFO 52093 [egg-security] use nosniff middleware
+2019-11-10 20:56:03,749 INFO 52093 [egg-security] use xssProtection middleware
+2019-11-10 20:56:03,750 INFO 52093 [egg-security] use xframe middleware
+2019-11-10 20:56:03,750 INFO 52093 [egg-security] use dta middleware
+2019-11-10 20:56:03,750 INFO 52093 [egg-security] compose 7 middlewares into one security middleware
+2019-11-10 20:56:03,758 INFO 52093 [egg:core] dump config after load, 5ms
+2019-11-10 20:56:03,792 INFO 52093 [egg-watcher:application] watcher start success
+2019-11-10 20:56:03,829 INFO 52093 [egg:core] dump config after ready, 4ms
+2019-11-10 20:56:09,214 INFO 52095 [egg:logger] init all loggers with options: {"dir":"/Users/dajiaman/开发/后端/egg-boilerplate/logs/egg-boilerplate","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-boilerplate-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-10 20:56:09,241 INFO 52095 [egg-multipart] stream mode enable
+2019-11-10 20:56:09,448 INFO 52095 [egg-static] starting static serve /public/ -> /Users/dajiaman/开发/后端/egg-boilerplate/app/public
+2019-11-10 20:56:09,450 INFO 52095 [egg-security] use csrf middleware
+2019-11-10 20:56:09,451 INFO 52095 [egg-security] use methodnoallow middleware
+2019-11-10 20:56:09,451 INFO 52095 [egg-security] use noopen middleware
+2019-11-10 20:56:09,451 INFO 52095 [egg-security] use nosniff middleware
+2019-11-10 20:56:09,452 INFO 52095 [egg-security] use xssProtection middleware
+2019-11-10 20:56:09,452 INFO 52095 [egg-security] use xframe middleware
+2019-11-10 20:56:09,452 INFO 52095 [egg-security] use dta middleware
+2019-11-10 20:56:09,452 INFO 52095 [egg-security] compose 7 middlewares into one security middleware
+2019-11-10 20:56:09,459 INFO 52095 [egg:core] dump config after load, 4ms
+2019-11-10 20:56:09,489 INFO 52095 [egg-watcher:application] watcher start success
+2019-11-10 20:56:09,526 INFO 52095 [egg:core] dump config after ready, 4ms
+2019-11-10 20:56:11,894 INFO 52096 [egg:logger] init all loggers with options: {"dir":"/Users/dajiaman/开发/后端/egg-boilerplate/logs/egg-boilerplate","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-boilerplate-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-10 20:56:11,919 INFO 52096 [egg-multipart] stream mode enable
+2019-11-10 20:56:12,151 INFO 52096 [egg-static] starting static serve /public/ -> /Users/dajiaman/开发/后端/egg-boilerplate/app/public
+2019-11-10 20:56:12,153 INFO 52096 [egg-security] use csrf middleware
+2019-11-10 20:56:12,154 INFO 52096 [egg-security] use methodnoallow middleware
+2019-11-10 20:56:12,154 INFO 52096 [egg-security] use noopen middleware
+2019-11-10 20:56:12,154 INFO 52096 [egg-security] use nosniff middleware
+2019-11-10 20:56:12,154 INFO 52096 [egg-security] use xssProtection middleware
+2019-11-10 20:56:12,155 INFO 52096 [egg-security] use xframe middleware
+2019-11-10 20:56:12,155 INFO 52096 [egg-security] use dta middleware
+2019-11-10 20:56:12,155 INFO 52096 [egg-security] compose 7 middlewares into one security middleware
+2019-11-10 20:56:12,166 INFO 52096 [egg:core] dump config after load, 5ms
+2019-11-10 20:56:12,202 INFO 52096 [egg-watcher:application] watcher start success
+2019-11-10 20:56:12,239 INFO 52096 [egg:core] dump config after ready, 4ms
+2019-11-10 21:04:10,403 INFO 52144 [egg:logger] init all loggers with options: {"dir":"/Users/dajiaman/开发/后端/egg-boilerplate/logs/egg-boilerplate","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-boilerplate-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-10 21:04:10,469 INFO 52144 [egg-multipart] stream mode enable
+2019-11-10 21:04:11,105 INFO 52144 [egg-static] starting static serve /public/ -> /Users/dajiaman/开发/后端/egg-boilerplate/app/public
+2019-11-10 21:04:11,109 INFO 52144 [egg-security] use csrf middleware
+2019-11-10 21:04:11,111 INFO 52144 [egg-security] use methodnoallow middleware
+2019-11-10 21:04:11,113 INFO 52144 [egg-security] use noopen middleware
+2019-11-10 21:04:11,115 INFO 52144 [egg-security] use nosniff middleware
+2019-11-10 21:04:11,116 INFO 52144 [egg-security] use xssProtection middleware
+2019-11-10 21:04:11,118 INFO 52144 [egg-security] use xframe middleware
+2019-11-10 21:04:11,119 INFO 52144 [egg-security] use dta middleware
+2019-11-10 21:04:11,119 INFO 52144 [egg-security] compose 7 middlewares into one security middleware
+2019-11-10 21:04:11,140 INFO 52144 [egg:core] dump config after load, 10ms
+2019-11-10 21:04:11,202 INFO 52144 [egg-watcher:application] watcher start success
+2019-11-10 21:04:11,399 INFO 52144 [egg:core] dump config after ready, 10ms
+2019-11-10 21:04:13,310 INFO 52145 [egg:logger] init all loggers with options: {"dir":"/Users/dajiaman/开发/后端/egg-boilerplate/logs/egg-boilerplate","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-boilerplate-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-10 21:04:13,353 INFO 52145 [egg-multipart] stream mode enable
+2019-11-10 21:04:13,786 INFO 52145 [egg-static] starting static serve /public/ -> /Users/dajiaman/开发/后端/egg-boilerplate/app/public
+2019-11-10 21:04:13,789 INFO 52145 [egg-security] use csrf middleware
+2019-11-10 21:04:13,790 INFO 52145 [egg-security] use methodnoallow middleware
+2019-11-10 21:04:13,790 INFO 52145 [egg-security] use noopen middleware
+2019-11-10 21:04:13,790 INFO 52145 [egg-security] use nosniff middleware
+2019-11-10 21:04:13,791 INFO 52145 [egg-security] use xssProtection middleware
+2019-11-10 21:04:13,791 INFO 52145 [egg-security] use xframe middleware
+2019-11-10 21:04:13,792 INFO 52145 [egg-security] use dta middleware
+2019-11-10 21:04:13,792 INFO 52145 [egg-security] compose 7 middlewares into one security middleware
+2019-11-10 21:04:13,814 INFO 52145 [egg:core] dump config after load, 11ms
+2019-11-10 21:04:13,866 INFO 52145 [egg-watcher:application] watcher start success
+2019-11-10 21:04:13,923 INFO 52145 [egg:core] dump config after ready, 5ms
+2019-11-10 21:04:16,709 INFO 52150 [egg:logger] init all loggers with options: {"dir":"/Users/dajiaman/开发/后端/egg-boilerplate/logs/egg-boilerplate","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-boilerplate-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-10 21:04:16,748 INFO 52150 [egg-multipart] stream mode enable
+2019-11-10 21:04:17,090 INFO 52150 [egg-static] starting static serve /public/ -> /Users/dajiaman/开发/后端/egg-boilerplate/app/public
+2019-11-10 21:04:17,093 INFO 52150 [egg-security] use csrf middleware
+2019-11-10 21:04:17,094 INFO 52150 [egg-security] use methodnoallow middleware
+2019-11-10 21:04:17,095 INFO 52150 [egg-security] use noopen middleware
+2019-11-10 21:04:17,096 INFO 52150 [egg-security] use nosniff middleware
+2019-11-10 21:04:17,099 INFO 52150 [egg-security] use xssProtection middleware
+2019-11-10 21:04:17,099 INFO 52150 [egg-security] use xframe middleware
+2019-11-10 21:04:17,100 INFO 52150 [egg-security] use dta middleware
+2019-11-10 21:04:17,100 INFO 52150 [egg-security] compose 7 middlewares into one security middleware
+2019-11-10 21:04:17,113 INFO 52150 [egg:core] dump config after load, 8ms
+2019-11-10 21:04:17,159 INFO 52150 [egg-watcher:application] watcher start success
+2019-11-10 21:04:17,230 INFO 52150 [egg:core] dump config after ready, 8ms
+2019-11-10 21:04:24,821 INFO 52151 [egg:logger] init all loggers with options: {"dir":"/Users/dajiaman/开发/后端/egg-boilerplate/logs/egg-boilerplate","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-boilerplate-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-10 21:04:24,854 INFO 52151 [egg-multipart] stream mode enable
+2019-11-10 21:04:25,191 INFO 52151 [egg-static] starting static serve /public/ -> /Users/dajiaman/开发/后端/egg-boilerplate/app/public
+2019-11-10 21:04:25,193 INFO 52151 [egg-security] use csrf middleware
+2019-11-10 21:04:25,194 INFO 52151 [egg-security] use methodnoallow middleware
+2019-11-10 21:04:25,199 INFO 52151 [egg-security] use noopen middleware
+2019-11-10 21:04:25,199 INFO 52151 [egg-security] use nosniff middleware
+2019-11-10 21:04:25,200 INFO 52151 [egg-security] use xssProtection middleware
+2019-11-10 21:04:25,200 INFO 52151 [egg-security] use xframe middleware
+2019-11-10 21:04:25,201 INFO 52151 [egg-security] use dta middleware
+2019-11-10 21:04:25,201 INFO 52151 [egg-security] compose 7 middlewares into one security middleware
+2019-11-10 21:04:25,216 INFO 52151 [egg:core] dump config after load, 10ms
+2019-11-10 21:04:25,284 INFO 52151 [egg-watcher:application] watcher start success
+2019-11-10 21:04:25,357 INFO 52151 [egg:core] dump config after ready, 5ms
+2019-11-10 21:04:31,506 INFO 52152 [egg:logger] init all loggers with options: {"dir":"/Users/dajiaman/开发/后端/egg-boilerplate/logs/egg-boilerplate","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-boilerplate-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-10 21:04:31,556 INFO 52152 [egg-multipart] stream mode enable
+2019-11-10 21:04:31,983 INFO 52152 [egg-static] starting static serve /public/ -> /Users/dajiaman/开发/后端/egg-boilerplate/app/public
+2019-11-10 21:04:31,985 INFO 52152 [egg-security] use csrf middleware
+2019-11-10 21:04:31,986 INFO 52152 [egg-security] use methodnoallow middleware
+2019-11-10 21:04:31,986 INFO 52152 [egg-security] use noopen middleware
+2019-11-10 21:04:31,987 INFO 52152 [egg-security] use nosniff middleware
+2019-11-10 21:04:31,987 INFO 52152 [egg-security] use xssProtection middleware
+2019-11-10 21:04:31,988 INFO 52152 [egg-security] use xframe middleware
+2019-11-10 21:04:31,988 INFO 52152 [egg-security] use dta middleware
+2019-11-10 21:04:31,988 INFO 52152 [egg-security] compose 7 middlewares into one security middleware
+2019-11-10 21:04:32,008 INFO 52152 [egg:core] dump config after load, 12ms
+2019-11-10 21:04:32,100 INFO 52152 [egg-watcher:application] watcher start success
+2019-11-10 21:04:32,176 INFO 52152 [egg:core] dump config after ready, 5ms
+2019-11-10 21:04:38,355 INFO 52153 [egg:logger] init all loggers with options: {"dir":"/Users/dajiaman/开发/后端/egg-boilerplate/logs/egg-boilerplate","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-boilerplate-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-10 21:04:38,417 INFO 52153 [egg-multipart] stream mode enable
+2019-11-10 21:04:39,013 INFO 52153 [egg-static] starting static serve /public/ -> /Users/dajiaman/开发/后端/egg-boilerplate/app/public
+2019-11-10 21:04:39,017 INFO 52153 [egg-security] use csrf middleware
+2019-11-10 21:04:39,018 INFO 52153 [egg-security] use methodnoallow middleware
+2019-11-10 21:04:39,019 INFO 52153 [egg-security] use noopen middleware
+2019-11-10 21:04:39,033 INFO 52153 [egg-security] use nosniff middleware
+2019-11-10 21:04:39,034 INFO 52153 [egg-security] use xssProtection middleware
+2019-11-10 21:04:39,034 INFO 52153 [egg-security] use xframe middleware
+2019-11-10 21:04:39,035 INFO 52153 [egg-security] use dta middleware
+2019-11-10 21:04:39,035 INFO 52153 [egg-security] compose 7 middlewares into one security middleware
+2019-11-10 21:04:39,049 INFO 52153 [egg:core] dump config after load, 10ms
+2019-11-10 21:04:39,120 INFO 52153 [egg-watcher:application] watcher start success
+2019-11-10 21:04:39,222 INFO 52153 [egg:core] dump config after ready, 18ms
+2019-11-10 21:04:47,851 INFO 52154 [egg:logger] init all loggers with options: {"dir":"/Users/dajiaman/开发/后端/egg-boilerplate/logs/egg-boilerplate","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-boilerplate-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-10 21:04:47,889 INFO 52154 [egg-multipart] stream mode enable
+2019-11-10 21:04:48,218 INFO 52154 [egg-static] starting static serve /public/ -> /Users/dajiaman/开发/后端/egg-boilerplate/app/public
+2019-11-10 21:04:48,220 INFO 52154 [egg-security] use csrf middleware
+2019-11-10 21:04:48,221 INFO 52154 [egg-security] use methodnoallow middleware
+2019-11-10 21:04:48,221 INFO 52154 [egg-security] use noopen middleware
+2019-11-10 21:04:48,221 INFO 52154 [egg-security] use nosniff middleware
+2019-11-10 21:04:48,222 INFO 52154 [egg-security] use xssProtection middleware
+2019-11-10 21:04:48,222 INFO 52154 [egg-security] use xframe middleware
+2019-11-10 21:04:48,222 INFO 52154 [egg-security] use dta middleware
+2019-11-10 21:04:48,223 INFO 52154 [egg-security] compose 7 middlewares into one security middleware
+2019-11-10 21:04:48,235 INFO 52154 [egg:core] dump config after load, 5ms
+2019-11-10 21:04:48,280 INFO 52154 [egg-watcher:application] watcher start success
+2019-11-10 21:04:48,329 INFO 52154 [egg:core] dump config after ready, 6ms
+2019-11-10 21:20:26,019 INFO 52210 [egg:logger] init all loggers with options: {"dir":"/Users/dajiaman/开发/后端/egg-boilerplate/logs/egg-boilerplate","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-boilerplate-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-10 21:20:26,073 INFO 52210 [egg-multipart] stream mode enable
+2019-11-10 21:20:26,910 INFO 52210 [egg-static] starting static serve /public/ -> /Users/dajiaman/开发/后端/egg-boilerplate/app/public
+2019-11-10 21:20:26,915 INFO 52210 [egg-security] use csrf middleware
+2019-11-10 21:20:26,917 INFO 52210 [egg-security] use methodnoallow middleware
+2019-11-10 21:20:26,918 INFO 52210 [egg-security] use noopen middleware
+2019-11-10 21:20:26,920 INFO 52210 [egg-security] use nosniff middleware
+2019-11-10 21:20:26,921 INFO 52210 [egg-security] use xssProtection middleware
+2019-11-10 21:20:26,923 INFO 52210 [egg-security] use xframe middleware
+2019-11-10 21:20:26,924 INFO 52210 [egg-security] use dta middleware
+2019-11-10 21:20:26,924 INFO 52210 [egg-security] compose 7 middlewares into one security middleware
+2019-11-10 21:20:26,949 INFO 52210 [egg:core] dump config after load, 13ms
+2019-11-10 21:20:27,002 INFO 52210 [egg-watcher:application] watcher start success
+2019-11-10 21:20:27,165 INFO 52210 [egg:core] dump config after ready, 8ms
+2019-11-10 22:11:48,478 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-10 22:17:31,269 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-10 22:23:18,252 WARN 52210 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-11-10 22:23:18,253 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-10 22:29:00,150 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-10 22:34:22,071 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-10 22:40:04,031 WARN 52210 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-11-10 22:40:04,031 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-10 23:18:06,161 WARN 52210 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-11-10 23:18:06,162 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-10 23:23:48,124 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-10 23:29:10,016 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-10 23:34:57,002 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-10 23:40:39,132 WARN 52210 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-11-10 23:40:39,133 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-10 23:46:01,867 WARN 52210 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-11-10 23:46:01,867 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-10 23:51:43,796 WARN 52210 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-11-10 23:51:43,796 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 00:53:15,610 WARN 52210 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-11-11 00:53:15,611 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 00:58:57,513 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 01:04:19,412 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 01:10:01,318 WARN 52210 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-11-11 01:10:01,318 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 01:15:43,217 WARN 52210 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-11-11 01:15:43,218 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 01:21:25,236 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 01:26:47,128 WARN 52210 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-11-11 01:26:47,129 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 02:04:47,961 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 02:09:47,306 WARN 52210 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-11-11 02:09:47,307 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 02:15:29,170 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 02:20:51,047 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 02:25:24,157 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 02:31:06,034 WARN 52210 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-11-11 02:31:06,035 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 02:33:41,013 WARN 52210 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-11-11 02:33:41,013 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 02:39:22,889 WARN 52210 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-11-11 02:39:22,890 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 02:45:04,794 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 02:50:46,698 WARN 52210 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-11-11 02:50:46,699 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 02:52:25,381 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 02:58:07,258 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 03:03:49,163 WARN 52210 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-11-11 03:03:49,164 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 03:09:11,052 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 03:14:52,926 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 03:19:04,905 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 03:24:46,795 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 03:28:18,694 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 03:34:00,558 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 03:39:42,436 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 03:41:46,406 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 03:45:12,461 WARN 52210 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-11-11 03:45:12,462 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 03:50:54,361 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 03:56:36,248 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 04:01:58,109 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 04:06:53,063 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 04:12:34,946 WARN 52210 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-11-11 04:12:34,947 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 04:15:52,864 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 04:21:34,789 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 04:27:21,742 WARN 52210 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-11-11 04:27:21,743 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 04:32:44,338 WARN 52210 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-11-11 04:32:44,338 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 04:38:26,245 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 04:44:08,152 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 04:49:50,237 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 04:58:47,851 WARN 52210 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-11-11 04:58:47,851 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 05:03:37,769 WARN 52210 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-11-11 05:03:37,770 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 05:08:49,668 WARN 52210 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-11-11 05:08:49,669 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 05:14:31,573 WARN 52210 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-11-11 05:14:31,573 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 05:19:12,949 WARN 52210 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-11-11 05:19:12,950 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 05:24:02,848 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 05:29:24,714 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 05:31:59,679 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 05:37:41,542 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 05:40:40,402 WARN 52210 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-11-11 05:40:40,402 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 05:44:33,814 WARN 52210 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-11-11 05:44:33,814 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 05:50:15,746 WARN 52210 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-11-11 05:50:15,747 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 06:00:37,513 WARN 52210 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-11-11 06:00:37,513 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 06:05:19,666 WARN 52210 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-11-11 06:05:19,667 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 06:11:01,550 WARN 52210 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-11-11 06:11:01,551 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 06:16:43,432 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 06:22:06,527 WARN 52210 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-11-11 06:22:06,527 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 06:27:48,433 WARN 52210 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-11-11 06:27:48,433 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 06:33:30,347 WARN 52210 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-11-11 06:33:30,348 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 06:39:12,222 WARN 52210 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-11-11 06:39:12,222 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 08:39:51,360 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 08:45:33,237 WARN 52210 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-11-11 08:45:33,238 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 08:51:15,109 WARN 52210 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-11-11 08:51:15,109 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 08:56:56,975 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 09:02:18,840 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 09:08:00,763 WARN 52210 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-11-11 09:08:00,764 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 09:13:42,633 WARN 52210 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-11-11 09:13:42,634 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 10:45:19,361 WARN 52210 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-11-11 11:22:31,482 INFO 52210 [egg-logrotator] clean all log before 31 days
+2019-11-11 11:22:32,463 INFO 52210 [egg-logrotator] broadcast log-reload
+2019-11-11 11:22:32,463 INFO 52210 [egg-logrotator] rotate files success by DayRotator, files ["/Users/dajiaman/开发/后端/egg-boilerplate/logs/egg-boilerplate/common-error.log -> /Users/dajiaman/开发/后端/egg-boilerplate/logs/egg-boilerplate/common-error.log.2019-11-10","/Users/dajiaman/开发/后端/egg-boilerplate/logs/egg-boilerplate/egg-boilerplate-web.log -> /Users/dajiaman/开发/后端/egg-boilerplate/logs/egg-boilerplate/egg-boilerplate-web.log.2019-11-10","/Users/dajiaman/开发/后端/egg-boilerplate/logs/egg-boilerplate/egg-web.log -> /Users/dajiaman/开发/后端/egg-boilerplate/logs/egg-boilerplate/egg-web.log.2019-11-10","/Users/dajiaman/开发/后端/egg-boilerplate/logs/egg-boilerplate/egg-schedule.log -> /Users/dajiaman/开发/后端/egg-boilerplate/logs/egg-boilerplate/egg-schedule.log.2019-11-10","/Users/dajiaman/开发/后端/egg-boilerplate/logs/egg-boilerplate/egg-agent.log -> /Users/dajiaman/开发/后端/egg-boilerplate/logs/egg-boilerplate/egg-agent.log.2019-11-10"]
